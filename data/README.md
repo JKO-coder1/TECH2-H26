@@ -32,15 +32,6 @@ See README files in sub-folders for documentation and sources.
     15. `MonthSold`: Month sold
     16. `HasGarage`: Flag indicating whether the property has a garage
 
-- `population_norway.csv`: Population by municipality (kommune) as of March 13, 2025.
-    
-    Source: SSB, [https://www.ssb.no/statbank/sq/10102933](https://www.ssb.no/statbank/sq/10102933)
-
-    *Variables:*
-
-    1.  Municipality
-    2.  Population
-
 - `titanic.csv`: Passenger list of the Titanic's maiden voyage, taken
     from [pandas's data collection](https://github.com/pandas-dev/pandas/blob/main/doc/data/titanic.csv).
 
@@ -59,22 +50,6 @@ See README files in sub-folders for documentation and sources.
         `C` - Cherbourg, `Q` - Queenstown, `S` - Southampton
 
 
-- `titanic-additional.csv`: Contains additional (fictitious) data on Titanic passengers.
-
-    *Variables:*
-
-    1.  `Title`: Mr., Mrs., Miss, Ms., Rev., etc.
-    2.  `LastName`: Last name
-    3.  `FirstName`: First name
-    4.  `MaidenName`: Maiden name (only for married women)
-    5.  `City`: Fictitious city of residence
-    6.  `Postcode`: Fictitious post code
-    7.  `Address`: Fictitious address
-
-- `UK_post_codes.csv`: List of post code prefixes (first letters)
-    and the corresponding cities and countries (England, Scotland, etc.)
-
-
 - `NBER_cycle_dates.csv`: US business cycle peaks and troughs as dated by the 
     National Bureau of Economic Research (NBER).
 
@@ -82,4 +57,3 @@ See README files in sub-folders for documentation and sources.
 
     1. `peak`: Peak quarter (last quarter in which GDP was growing)
     2. `trough`: Trough quarter (last quarter in which GDP was declining)
-

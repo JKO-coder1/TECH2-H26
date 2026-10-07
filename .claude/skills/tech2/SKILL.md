@@ -93,6 +93,21 @@ This document synthesizes installation, configuration, and verification instruct
 ### Verification
 - Launch VS Code from Start Menu (Windows) or Applications / Spotlight (Mac). Confirm it opens to the Welcome tab.
 
+### Mac: Cannot Update on a Read-Only Volume
+
+If VS Code reports "Cannot update while running on a read-only volume", common causes are running it from **Downloads**, directly from a mounted **`.dmg` disk image**, or another quarantined/read-only location. The updater needs permission to modify the application.
+
+1. Quit VS Code completely (`Cmd+Q`).
+2. In Finder, drag `Visual Studio Code.app` into **Applications** (`/Applications`)
+   in the sidebar. If you opened a `.dmg`, drag the VS Code icon onto the
+   **Applications** folder shown in that window. This copies the app onto your Mac.
+3. Eject any mounted VS Code disk image from Finder's sidebar.
+4. Launch the copy from `/Applications` and confirm that it opens successfully.
+5. You can now delete the `.dmg` file from **Downloads**. It is only needed for
+   installation; deleting it does not remove the installed app.
+6. Remove any old Dock shortcut and add the copy from `/Applications`.
+7. Select **Code > Check for Updates...** and retry.
+
 ---
 
 ## 3. Git Installation & Setup
