@@ -16,7 +16,7 @@ Course material for fall 2026 (H26) — Author: Richard Foltyn
 |  40  | Wed, Sep 30 | `L` | GitHub & NumPy | [Slides](lectures/lecture1/lecture1-slides.pdf), [Notebook](lectures/lecture1/lecture1.ipynb), [PDF](lectures/lecture1/lecture1.pdf) | —  |
 |      | Fri, Oct 2 | `W` | GitHub & NumPy | [Notebook](workshops/workshop1/workshop1.ipynb), [PDF](workshops/workshop1/workshop1.pdf) | [Notebook](workshops/workshop1/workshop1-solution.ipynb), [PDF](workshops/workshop1/workshop1-solution.pdf) |
 |  41  | Wed, Oct 7  | `L` | Intro to pandas | [Notebook](lectures/lecture2/lecture2.ipynb), [PDF](lectures/lecture2/lecture2.pdf) | —  |
-|      | Wed, Oct 9  | `W` | Intro to pandas | [Notebook](workshops/workshop2/workshop2.ipynb), [PDF](workshops/workshop2/workshop2.pdf) | TBA |
+|      | Wed, Oct 9  | `W` | Intro to pandas | [Notebook](workshops/workshop2/workshop2.ipynb), [PDF](workshops/workshop2/workshop2.pdf) | [Notebook](workshops/workshop2/workshop2-solution.ipynb), [PDF](workshops/workshop2/workshop2-solution.pdf) |
 |  42  | Wed, Oct 14  | `L` | Plotting | [Notebook](lectures/lecture3/lecture3.ipynb), [PDF](lectures/lecture3/lecture3.pdf) | —  |
 |      | Fri, Oct 16 | `W` | Plotting | [Notebook](workshops/workshop3/workshop3.ipynb), [PDF](workshops/workshop3/workshop3.pdf) | TBA |
 |  43  | Wed, Oct 21 | `L` | Grouping and aggregation | [Notebook](lectures/lecture4/lecture4.ipynb), [PDF](lectures/lecture4/lecture4.pdf) | —  |
