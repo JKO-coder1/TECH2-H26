@@ -18,7 +18,7 @@ Course material for fall 2026 (H26) — Author: Richard Foltyn
 |  41  | Wed, Oct 7  | `L` | Intro to pandas | [Notebook](lectures/lecture2/lecture2.ipynb), [PDF](lectures/lecture2/lecture2.pdf) | —  |
 |      | Wed, Oct 9  | `W` | Intro to pandas | [Notebook](workshops/workshop2/workshop2.ipynb), [PDF](workshops/workshop2/workshop2.pdf) | [Notebook](workshops/workshop2/workshop2-solution.ipynb), [PDF](workshops/workshop2/workshop2-solution.pdf) |
 |  42  | Wed, Oct 14  | `L` | Plotting | [Notebook](lectures/lecture3/lecture3.ipynb), [PDF](lectures/lecture3/lecture3.pdf) | —  |
-|      | Fri, Oct 16 | `W` | Plotting | [Notebook](workshops/workshop3/workshop3.ipynb), [PDF](workshops/workshop3/workshop3.pdf) | TBA |
+|      | Fri, Oct 16 | `W` | Plotting | [Notebook](workshops/workshop3/workshop3.ipynb), [PDF](workshops/workshop3/workshop3.pdf) | [Notebook](workshops/workshop3/workshop3-solution.ipynb), [PDF](workshops/workshop3/workshop3-solution.pdf) |
 |  43  | Wed, Oct 21 | `L` | Grouping and aggregation | [Notebook](lectures/lecture4/lecture4.ipynb), [PDF](lectures/lecture4/lecture4.pdf) | —  |
 |      | Fri, Oct 23 | `W` | Grouping and aggregation | [Notebook](workshops/workshop4/workshop4.ipynb), [PDF](workshops/workshop4/workshop4.pdf) | TBA |
 |  44  | Wed, Oct 28 | `L` | Concatenating and merging | [Notebook](lectures/lecture5/lecture5.ipynb), [PDF](lectures/lecture5/lecture5.pdf) | —  |
