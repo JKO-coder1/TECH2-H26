@@ -3,6 +3,57 @@
 Datasets from Kystverket (the Norwegian Coastal Administration). Each file is
 documented separately below.
 
+## `bergen_arrivals.csv.gz`
+
+Individual reported arrivals at Bergen harbour for the complete calendar years
+2013–2025. The file contains 45,620 rows and four columns, occupying approximately
+286 KB with gzip compression (3.11 MB uncompressed). Each row is one reported
+arrival; repeat visits by the same ship count separately.
+
+| Field | Description |
+| --- | --- |
+| `arrival` | Reported arrival time in Bergen local time (`Europe/Oslo`), formatted as `YYYY-MM-DD HH:MM:SS`. |
+| `vessel_type` | Detailed vessel type, using the same English labels as the monthly file. |
+| `vessel_category` | Broad vessel category, using the same English labels as the monthly file. |
+| `gross_tonnage` | Gross tonnage (GT), a measure of vessel size based on enclosed volume. |
+
+The records are sorted by arrival time. There are 90 detailed vessel types and
+seven broad categories, including `Unknown`. Gross tonnage is missing for eight
+records; the other fields are complete. The timestamps retain local clock times
+but omit the time-zone offset, allowing pandas to read them directly as a date
+index for monthly aggregation.
+
+Gross tonnage is calculated from the volume of a ship's enclosed spaces; see the
+[IMO description](https://www.imo.org/en/about/conventions/pages/international-convention-on-tonnage-measurement-of-ships.aspx).
+An average across arrival records gives more weight to ships with more visits.
+
+From the repository root:
+
+```python
+import pandas as pd
+
+df_arrivals = pd.read_csv(
+    'data/kystverket/bergen_arrivals.csv.gz',
+    parse_dates=['arrival'],
+    index_col='arrival',
+)
+```
+
+`read_csv()` automatically detects gzip compression from the `.gz` extension.
+
+Source: Kystverket's Kystdatahuset, SafeSeaNet arrival reports, retrieved on
+October 15, 2026. Processing selected Bergen harbour records for 2013–2025,
+retained four fields, translated classification labels to English, converted
+arrival times to Bergen local time, omitted time-zone offsets, and sorted the
+records. Exact duplicate source records are retained, matching the monthly file.
+The reporting location and limitations described below also apply to this file,
+including the passenger-reporting change in December 2023.
+
+Contains data under the Norwegian licence for Open Government data (NLOD)
+distributed by Kystverket (Norwegian Coastal Administration).
+[Source: SafeSeaNet arrivals](https://kystdatahuset.kystverket.no/detail/dataset/8e16b69e-d466-47bd-91d2-179aebdf4f65).
+[License: NLOD 1.0](https://data.norge.no/nlod/en/1.0).
+
 ## `bergen_monthly_calls.csv`
 
 Monthly reported arrivals at Bergen harbour, from January 2013 through September
