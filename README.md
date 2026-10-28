@@ -20,7 +20,7 @@ Course material for fall 2026 (H26) — Author: Richard Foltyn
 |  42  | Wed, Oct 14  | `L` | Plotting | [Notebook](lectures/lecture3/lecture3.ipynb), [PDF](lectures/lecture3/lecture3.pdf) | —  |
 |      | Fri, Oct 16 | `W` | Plotting | [Notebook](workshops/workshop3/workshop3.ipynb), [PDF](workshops/workshop3/workshop3.pdf) | [Notebook](workshops/workshop3/workshop3-solution.ipynb), [PDF](workshops/workshop3/workshop3-solution.pdf) |
 |  43  | Wed, Oct 21 | `L` | Grouping and aggregation | [Notebook](lectures/lecture4/lecture4.ipynb), [PDF](lectures/lecture4/lecture4.pdf) | —  |
-|      | Fri, Oct 23 | `W` | Grouping and aggregation | [Notebook](workshops/workshop4/workshop4.ipynb), [PDF](workshops/workshop4/workshop4.pdf) | TBA |
+|      | Fri, Oct 23 | `W` | Grouping and aggregation | [Notebook](workshops/workshop4/workshop4.ipynb), [PDF](workshops/workshop4/workshop4.pdf) | [Notebook](workshops/workshop4/workshop4-solution.ipynb), [PDF](workshops/workshop4/workshop4-solution.pdf) |
 |  44  | Wed, Oct 28 | `L` | Concatenating and merging | [Notebook](lectures/lecture5/lecture5.ipynb), [PDF](lectures/lecture5/lecture5.pdf) | —  |
 |      | Fri, Oct 30 | `W` | Concatenating and merging | [Notebook](workshops/workshop5/workshop5.ipynb), [PDF](workshops/workshop5/workshop5.pdf) | TBA |
 |  45  | Wed, Nov 4 | `L+W` | AI week | TBA | — |
