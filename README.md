@@ -23,8 +23,8 @@ Course material for fall 2026 (H26) — Author: Richard Foltyn
 |      | Fri, Oct 23 | `W` | Grouping and aggregation | [Notebook](workshops/workshop4/workshop4.ipynb), [PDF](workshops/workshop4/workshop4.pdf) | [Notebook](workshops/workshop4/workshop4-solution.ipynb), [PDF](workshops/workshop4/workshop4-solution.pdf) |
 |  44  | Wed, Oct 28 | `L` | Concatenating and merging | [Notebook](lectures/lecture5/lecture5.ipynb), [PDF](lectures/lecture5/lecture5.pdf) | —  |
 |      | Fri, Oct 30 | `W` | Concatenating and merging | [Notebook](workshops/workshop5/workshop5.ipynb), [PDF](workshops/workshop5/workshop5.pdf) | TBA |
-|  45  | Wed, Nov 4 | `L+W` | AI week | TBA | — |
-|      | Fri, Nov 6 | `L+W` | AI week | TBA | — |
+|  45  | Wed, Nov 4 | `L+W` | AI week: Intro to the agentic coding | TBA | — |
+|      | Fri, Nov 6 |  | AI week: KPMG | — | — |
 
 
 ## Forking & Cloning
